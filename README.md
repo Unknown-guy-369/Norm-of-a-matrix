@@ -28,8 +28,8 @@ import numpy as np
 
 mat=np.array(eval(input()))
 ans= np.linalg.norm(mat,2)
-Norm_of_matrix=f"{ans:.2f}"
-print(Norm_of_matrix)
+L2_Norm_of_matrix=f"{ans:.2f}"
+print(L2_Norm_of_matrix)
 
 # Infinity Norm of a Matrix
 
