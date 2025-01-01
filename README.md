@@ -4,10 +4,24 @@ To write a program to find the 1-norm, 2-norm and infinity norm of the matrix an
 ## Equipment’s required:
 1.	Hardware – PCs
 2.	Anaconda – Python 3.7 Installation / Moodle-Code Runner
-## Algorithm:
-	1. Get the input matrix using np.array()   
-    2. Find the 2-norm of the matrix using np.linalg.norm()
-	3. Print the norm of the matrix in two decimal places.
+## Algorithm 1:
+	1. Input the matrix as a 2D array.
+    2. Calculate the sum of the absolute values for each column.
+    3. Identify the maximum of these sums.
+    4. Return the result rounded to two decimal places.
+
+## Algorithm 2:
+	1. Input the matrix as a 2D array.
+    2. Compute the singular values of the matrix.
+    3. Find the largest singular value.
+    4. Return the result rounded to two decimal places.
+
+## Algorithm 3:
+	1. Input the matrix as a 2D array.
+    2. Calculate the sum of the absolute values for each row.
+    3. Identify the maximum of these sums.
+    4. Return the result rounded to two decimal places.
+	
 ## Program:
 ```Python
 # Register No: 24900880
